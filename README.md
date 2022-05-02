@@ -1,4 +1,11 @@
-# For OMIT REPO Template
-All repo may need to use this template in future.( •̀ ω •́ )y
+# OMIT Community Command Repo
 
-For now may be not need.ヽ(✿ﾟ▽ﾟ)ノ
+* Share Command config for [Omit Terminal](https://github.com/ThisSeanZhang/omit)
+
+# TODO
+- [X] Command
+- [ ] Snapshout
+
+
+# License
+MIT License
