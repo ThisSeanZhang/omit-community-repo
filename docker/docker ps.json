@@ -19,26 +19,5 @@
       }
     ],
     "params": []
-  },
-  {
-    "command_name": "docker run",
-    "brief_desc": {
-      "zh-CN": "运行容器"
-    },
-    "description": {
-      "zh-CN": "运行容器"
-    },
-    "platform": 1,
-    "options": [
-      {
-        "brief_name": "p",
-        "full_name": "port",
-        "description": {
-          "zh-CN": "端口映射"
-        },
-        "option_type": 4
-      }
-    ],
-    "params": []
   }
 ]
