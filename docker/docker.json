@@ -11,7 +11,7 @@
     "options": [
       {
         "brief_name": "a",
-        "full_name": "a",
+        "full_name": "all",
         "description": {
           "zh-CN": "查看所有"
         },
