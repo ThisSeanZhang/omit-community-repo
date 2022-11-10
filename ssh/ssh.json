@@ -1,22 +1,21 @@
-[
-  {
-    "command_name": "ssh",
-    "brief_desc": {
-      "zh-CN": "ssh"
-    },
-    "description": {
-      "zh-CN": "ssh"
-    },
-    "platform": 1,
-    "options": [
-      {
-        "brief_name": "p",
-        "full_name": "port",
-        "description": {
-          "zh-CN": ""
-        },
-        "option_type": 4
-      }
-    ],
-    "params": []
-  }]
+{
+  "command_name": "ssh",
+  "brief_desc": {
+    "zh-CN": "ssh"
+  },
+  "description": {
+    "zh-CN": "ssh"
+  },
+  "platform": 1,
+  "options": [
+    {
+      "brief_name": "p",
+      "full_name": "port",
+      "description": {
+        "zh-CN": ""
+      },
+      "option_type": 4
+    }
+  ],
+  "params": []
+}

@@ -1,23 +1,21 @@
-[
-  {
-    "command_name": "docker ps",
-    "brief_desc": {
-      "zh-CN": "查看docker容器"
-    },
-    "description": {
-      "zh-CN": "查看docker容器"
-    },
-    "platform": 1,
-    "options": [
-      {
-        "brief_name": "a",
-        "full_name": "all",
-        "description": {
-          "zh-CN": "查看所有"
-        },
-        "option_type": 0
-      }
-    ],
-    "params": []
-  }
-]
+{
+  "command_name": "docker ps",
+  "brief_desc": {
+    "zh-CN": "查看docker容器"
+  },
+  "description": {
+    "zh-CN": "查看docker容器"
+  },
+  "platform": 1,
+  "options": [
+    {
+      "brief_name": "a",
+      "full_name": "all",
+      "description": {
+        "zh-CN": "查看所有"
+      },
+      "option_type": 0
+    }
+  ],
+  "params": []
+}

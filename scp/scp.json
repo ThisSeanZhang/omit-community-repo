@@ -1,29 +1,28 @@
-[
-  {
-    "command_name": "scp",
-    "brief_desc": {
-      "zh-CN": "scp"
-    },
-    "description": {
-      "zh-CN": "scp"
-    },
-    "platform": 1,
-    "options": [
-      {
-        "brief_name": "P",
-        "full_name": "port",
-        "description": {
-          "zh-CN": ""
-        },
-        "option_type": 4
-      }, {
-        "brief_name": "R",
-        "full_name": "port",
-        "description": {
-          "zh-CN": ""
-        },
-        "option_type": 4
-      }
-    ],
-    "params": []
-  }]
+{
+  "command_name": "scp",
+  "brief_desc": {
+    "zh-CN": "scp"
+  },
+  "description": {
+    "zh-CN": "scp"
+  },
+  "platform": 1,
+  "options": [
+    {
+      "brief_name": "P",
+      "full_name": "port",
+      "description": {
+        "zh-CN": ""
+      },
+      "option_type": 4
+    }, {
+      "brief_name": "R",
+      "full_name": "port",
+      "description": {
+        "zh-CN": ""
+      },
+      "option_type": 4
+    }
+  ],
+  "params": []
+}
