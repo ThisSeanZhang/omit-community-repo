@@ -1,0 +1,111 @@
+{
+    "belong_file": "",
+    "belong_repo": "",
+    "brief_desc": {
+      "en-US": "Display information about active processes",
+      "zh-CN": "显示活动进程的信息"
+    },
+    "command_id": "ps",
+    "command_name": "ps",
+    "description": {
+      "en-US": "Display information about active processes based on various selection criteria.",
+      "zh-CN": "根据各种选择标准显示有关活动进程的信息。"
+    },
+    "frequency": 0,
+    "options": [
+      {
+        "brief_name": "a",
+        "description": {
+          "en-US": "Select all processes except session leaders and processes not associated with a terminal.",
+          "zh-CN": "选择所有进程，排除会话领导者和未关联终端的进程。"
+        },
+        "duplicate": false,
+        "full_name": "all_except_session_leaders",
+        "option_type": 0
+      },
+      {
+        "brief_name": "A",
+        "description": {
+          "en-US": "Select all processes.",
+          "zh-CN": "选择所有进程。"
+        },
+        "duplicate": false,
+        "full_name": "all",
+        "option_type": 0
+      },
+      {
+        "brief_name": "d",
+        "description": {
+          "en-US": "Select all processes except session leaders.",
+          "zh-CN": "选择所有进程，排除会话领导者。"
+        },
+        "duplicate": false,
+        "full_name": "exclude_session_leaders",
+        "option_type": 0
+      },
+      {
+        "brief_name": "e",
+        "description": {
+          "en-US": "Select all processes.",
+          "zh-CN": "选择所有进程。"
+        },
+        "duplicate": false,
+        "full_name": "all",
+        "option_type": 0
+      },
+      {
+        "brief_name": "g",
+        "description": {
+          "en-US": "Select all processes, including session leaders (obsolete).",
+          "zh-CN": "选择所有进程，包括会话领导者（已过时）。"
+        },
+        "duplicate": false,
+        "full_name": "all_including_session_leaders",
+        "option_type": 0
+      },
+      {
+        "brief_name": "N",
+        "description": {
+          "en-US": "Select all processes except those fulfilling the specified conditions.",
+          "zh-CN": "选择所有进程，排除满足指定条件的进程。"
+        },
+        "duplicate": false,
+        "full_name": "deselect",
+        "option_type": 0
+      },
+      {
+        "brief_name": "T",
+        "description": {
+          "en-US": "Select all processes associated with the specified terminal.",
+          "zh-CN": "选择与指定终端关联的所有进程。"
+        },
+        "duplicate": false,
+        "full_name": "terminal",
+        "option_type": 0
+      },
+      {
+        "brief_name": "r",
+        "description": {
+          "en-US": "Restrict the selection to only running processes.",
+          "zh-CN": "将选择限制为仅运行中的进程。"
+        },
+        "duplicate": false,
+        "full_name": "running",
+        "option_type": 0
+      },
+      {
+        "brief_name": "x",
+        "description": {
+          "en-US": "List all processes, lifting the BSD-style 'must have a tty' restriction.",
+          "zh-CN": "列出所有进程，解除 BSD 风格的“必须有终端”限制。"
+        },
+        "duplicate": false,
+        "full_name": "no_tty_restriction",
+        "option_type": 0
+      }
+    ],
+    "params": [],
+    "platform": "",
+    "version": ""
+  }
+  

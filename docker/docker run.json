@@ -1,0 +1,220 @@
+{
+  "belong_file": "",
+  "belong_repo": "",
+  "brief_desc": {
+    "en-US": "Run a command in a new container",
+    "zh-CN": "在新容器中运行命令"
+  },
+  "command_id": "docker run",
+  "command_name": "docker run",
+  "description": {
+    "en-US": "Run a command in a new container with various options for configuring the container's runtime environment.",
+    "zh-CN": "在新容器中运行命令，提供各种选项来配置容器的运行环境。"
+  },
+  "frequency": 0,
+  "options": [
+    {
+      "brief_name": "d",
+      "description": {
+        "en-US": "Run container in background and print container ID",
+        "zh-CN": "在后台运行容器并打印容器 ID"
+      },
+      "duplicate": false,
+      "full_name": "detach",
+      "option_type": 0
+    },
+    {
+      "brief_name": "p",
+      "description": {
+        "en-US": "Publish a container's port(s) to the host",
+        "zh-CN": "将容器的端口发布到主机"
+      },
+      "duplicate": true,
+      "full_name": "publish",
+      "option_type": 4
+    },
+    {
+      "brief_name": "a",
+      "description": {
+        "en-US": "Attach to STDIN, STDOUT or STDERR",
+        "zh-CN": "附加到 STDIN、STDOUT 或 STDERR"
+      },
+      "duplicate": false,
+      "full_name": "attach",
+      "option_type": 0
+    },
+    {
+      "brief_name": "e",
+      "description": {
+        "en-US": "Set environment variables",
+        "zh-CN": "设置环境变量"
+      },
+      "duplicate": false,
+      "full_name": "env",
+      "option_type": 3
+    },
+    {
+      "brief_name": "v",
+      "description": {
+        "en-US": "Bind mount a volume",
+        "zh-CN": "绑定挂载一个卷"
+      },
+      "duplicate": false,
+      "full_name": "volume",
+      "option_type": 4
+    },
+    {
+      "brief_name": "t",
+      "description": {
+        "en-US": "Allocate a pseudo-TTY",
+        "zh-CN": "分配一个伪终端"
+      },
+      "duplicate": false,
+      "full_name": "tty",
+      "option_type": 0
+    },
+    {
+      "brief_name": "i",
+      "description": {
+        "en-US": "Keep STDIN open even if not attached",
+        "zh-CN": "即使未附加也保持 STDIN 打开"
+      },
+      "duplicate": false,
+      "full_name": "interactive",
+      "option_type": 0
+    },
+    {
+      "brief_name": "h",
+      "description": {
+        "en-US": "Container host name",
+        "zh-CN": "容器主机名"
+      },
+      "duplicate": false,
+      "full_name": "hostname",
+      "option_type": 3
+    },
+    {
+      "brief_name": "m",
+      "description": {
+        "en-US": "Memory limit",
+        "zh-CN": "内存限制"
+      },
+      "duplicate": false,
+      "full_name": "memory",
+      "option_type": 1
+    },
+    {
+      "brief_name": "",
+      "description": {
+        "en-US": "Number of CPUs",
+        "zh-CN": "CPU 数量"
+      },
+      "duplicate": false,
+      "full_name": "cpus",
+      "option_type": 1
+    },
+    {
+      "brief_name": "",
+      "description": {
+        "en-US": "Assign a name to the container",
+        "zh-CN": "为容器分配一个名称"
+      },
+      "duplicate": false,
+      "full_name": "name",
+      "option_type": 3
+    },
+    {
+      "brief_name": "",
+      "description": {
+        "en-US": "Connect a container to a network",
+        "zh-CN": "将容器连接到网络"
+      },
+      "duplicate": false,
+      "full_name": "network",
+      "option_type": 3
+    },
+    {
+      "brief_name": "",
+      "description": {
+        "en-US": "Restart policy to apply when a container exits",
+        "zh-CN": "容器退出时应用的重启策略"
+      },
+      "duplicate": false,
+      "full_name": "restart",
+      "option_type": 2
+    },
+    {
+      "brief_name": "",
+      "description": {
+        "en-US": "Optional volume driver for the container",
+        "zh-CN": "容器的可选卷驱动程序"
+      },
+      "duplicate": false,
+      "full_name": "volume-driver",
+      "option_type": 3
+    },
+    {
+      "brief_name": "",
+      "description": {
+        "en-US": "Size of /dev/shm",
+        "zh-CN": "/dev/shm 的大小"
+      },
+      "duplicate": false,
+      "full_name": "shm-size",
+      "option_type": 1
+    },
+    {
+      "brief_name": "",
+      "description": {
+        "en-US": "Read environment variables from a file",
+        "zh-CN": "从文件中读取环境变量"
+      },
+      "duplicate": false,
+      "full_name": "env-file",
+      "option_type": 3
+    },
+    {
+      "brief_name": "",
+      "description": {
+        "en-US": "Set custom DNS servers",
+        "zh-CN": "设置自定义 DNS 服务器"
+      },
+      "duplicate": false,
+      "full_name": "dns",
+      "option_type": 3
+    },
+    {
+      "brief_name": "",
+      "description": {
+        "en-US": "Set custom DNS search domains",
+        "zh-CN": "设置自定义 DNS 搜索域"
+      },
+      "duplicate": false,
+      "full_name": "dns-search",
+      "option_type": 3
+    },
+    {
+      "brief_name": "",
+      "description": {
+        "en-US": "IPv4 address to assign to the container",
+        "zh-CN": "分配给容器的 IPv4 地址"
+      },
+      "duplicate": false,
+      "full_name": "ip",
+      "option_type": 3
+    },
+    {
+      "brief_name": "",
+      "description": {
+        "en-US": "IPv6 address to assign to the container",
+        "zh-CN": "分配给容器的 IPv6 地址"
+      },
+      "duplicate": false,
+      "full_name": "ip6",
+      "option_type": 3
+    }
+  ],
+  "params": [],
+  "platform": "",
+  "version": ""
+}

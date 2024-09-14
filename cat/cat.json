@@ -1,0 +1,100 @@
+{
+  "belong_file": "",
+  "belong_repo": "",
+  "brief_desc": {
+    "en-US": "Display the contents of files",
+    "zh-CN": "显示文件内容"
+  },
+  "command_id": "cat",
+  "command_name": "cat",
+  "description": {
+    "en-US": "Concatenate and display the contents of files.",
+    "zh-CN": "连接并显示文件的内容。"
+  },
+  "frequency": 0,
+  "options": [
+    {
+      "brief_name": "A",
+      "description": {
+        "en-US": "Shows all characters, including non-printing characters and line endings.",
+        "zh-CN": "显示所有字符，包括非打印字符和行结束符。"
+      },
+      "duplicate": false,
+      "full_name": "show-all",
+      "option_type": 0
+    },
+    {
+      "brief_name": "b",
+      "description": {
+        "en-US": "Creates a numbered list with non-blank lines.",
+        "zh-CN": "为非空行创建编号列表。"
+      },
+      "duplicate": false,
+      "full_name": "number-nonblank",
+      "option_type": 0
+    },
+    {
+      "brief_name": "e",
+      "description": {
+        "en-US": "Shows non-printing characters and ends lines with $.",
+        "zh-CN": "显示非打印字符，并在行尾显示 $。"
+      },
+      "duplicate": false,
+      "full_name": "show-ends",
+      "option_type": 0
+    },
+    {
+      "brief_name": "E",
+      "description": {
+        "en-US": "Displays a $ at the end of each line.",
+        "zh-CN": "在每行的末尾显示 $。"
+      },
+      "duplicate": false,
+      "full_name": "show-ends",
+      "option_type": 0
+    },
+    {
+      "brief_name": "n",
+      "description": {
+        "en-US": "Creates a numbered list with all lines, including blank lines.",
+        "zh-CN": "为所有行（包括空行）创建编号列表。"
+      },
+      "duplicate": false,
+      "full_name": "number",
+      "option_type": 0
+    },
+    {
+      "brief_name": "s",
+      "description": {
+        "en-US": "Suppresses repeated empty lines.",
+        "zh-CN": "抑制重复的空行。"
+      },
+      "duplicate": false,
+      "full_name": "squeeze-blank",
+      "option_type": 0
+    },
+    {
+      "brief_name": "T",
+      "description": {
+        "en-US": "Shows tab characters as ^I.",
+        "zh-CN": "将制表符显示为 ^I。"
+      },
+      "duplicate": false,
+      "full_name": "show-tabs",
+      "option_type": 0
+    },
+    {
+      "brief_name": "v",
+      "description": {
+        "en-US": "Displays non-printing characters, except for tabs and end-of-line characters.",
+        "zh-CN": "显示非打印字符，但不包括制表符和行结束符。"
+      },
+      "duplicate": false,
+      "full_name": "show-nonprinting",
+      "option_type": 0
+    }
+  ],
+  "params": [],
+  "platform": "",
+  "version": ""
+}
